@@ -38,5 +38,12 @@ class t1 {
 		assertEquals("16",result);
 	}
 	
+	@Test
+	// Test for stage2 divisible by 3 even if 3 comes in the number
+	public void testForStage2If3comes() {
+		stage2 junit = new stage2(); 
+		String result = junit.fizzBuzz(13);
+		assertEquals("Fizz",result);
+	}
 
 }
