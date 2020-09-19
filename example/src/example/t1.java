@@ -21,6 +21,14 @@ class t1 {
 		String result = junit.fizzBuzz(5);
 		assertEquals("Buzz",result);
 	}
+	
+	@Test
+	// Divisible by 3 and 5
+	public void testForDivisibleBy15() {
+		exm junit = new exm(); 
+		String result = junit.fizzBuzz(15);
+		assertEquals("FizzBuzz",result);
+	}
 
 	
 
