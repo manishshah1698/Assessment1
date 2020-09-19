@@ -29,7 +29,14 @@ class t1 {
 		String result = junit.fizzBuzz(15);
 		assertEquals("FizzBuzz",result);
 	}
-
+	
+	@Test
+	// Not divisible by 5 or 3
+	public void testForNotDivisibleByAny() {
+		exm junit = new exm(); 
+		String result = junit.fizzBuzz(16);
+		assertEquals("16",result);
+	}
 	
 
 }
