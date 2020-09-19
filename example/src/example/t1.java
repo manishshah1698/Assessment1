@@ -45,5 +45,13 @@ class t1 {
 		String result = junit.fizzBuzz(13);
 		assertEquals("Fizz",result);
 	}
+	
+	@Test
+	// Test for stage2 divisible by 5 even if 5 comes in the number
+	public void testForStage2If5comes() {
+		stage2 junit = new stage2(); 
+		String result = junit.fizzBuzz(53);
+		assertEquals("Buzz",result);
+	}
 
 }
